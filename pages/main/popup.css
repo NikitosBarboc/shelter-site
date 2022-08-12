@@ -1,0 +1,148 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    /* opacity: 0; */
+    /* pointer-events: none; */
+}
+.background.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.popup-main {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    /* opacity: 0;
+    pointer-events: none; */
+    /* transition: 0.5s all;  */
+}
+.popup-main.active{
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    pointer-events: all;
+    /* transition: 0.5s all; */
+}
+.close-popup{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 52px;
+    height: 25px;
+    border: 2px solid #F1CDB3;
+    border-radius: 50%;
+}
+.close{
+    padding: 20px;
+    width: 12px;
+    height: 12px;
+}
+
+.columns {
+    display: flex;
+    
+
+}
+.popup-text{
+    padding: 50px 0 0 10px;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+.popup-img{
+
+}
+.column {
+}
+.images-popup {
+    /* min-width: 500px;
+    min-height: 500px; */
+}
+.img-popup {
+    width: 500px;
+    height: 500px;
+}
+.pet-name-popup {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #000000;
+padding: 0 0 0 10px;
+}
+.pet-type {
+    padding: 10px 0 0 10px;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+.pet-description {
+    padding: 40px 10px 0 10px;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+.pet-age {
+    padding: 40px 0 0 10px;
+    font-family: 'Georgia';
+font-style: normal;
+
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+.pet-inoculations {
+    font-family: 'Georgia';
+font-style: normal;
+padding: 11px 0 0 10px;
+
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+.pet-diseases {
+    padding: 11px 0 0 10px;
+    font-family: 'Georgia';
+font-style: normal;
+
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+.pet-parasites {
+    padding: 11px 0 0 10px;
+    font-family: 'Georgia';
+font-style: normal;
+
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #000000;
+}
