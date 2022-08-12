@@ -1,6 +1,6 @@
 (() => {
     window.onload = () => {
-      let header__burger = document.querySelector('.header-burger');
+      const headerBurger = document.querySelector('.header-burger');
       let header__menu = document.querySelector('.header-menu');
       let header__link = document.querySelectorAll('.header-link')
       let body = document.querySelector('body');
@@ -11,7 +11,7 @@
       })
       document.addEventListener('click', event => {
         console.log(event.target)
-        if(event.target.classList.contains('link')){
+        if (event.target.classList.contains('link')){
         header__menu.classList.remove('active')
         body.classList.remove('lock');
         header__burger.classList.remove('active');
